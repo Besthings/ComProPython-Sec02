@@ -4,7 +4,7 @@ print("2. Subtract")
 print("3. Multiply")
 print("4. Divide")
 
-select = int,str(input("Enter number form 1,2,3,4: " ))
+select = int(input("Enter number form 1,2,3,4: " ))
 
 if  select == 1:
     num1 = int(input("Enter first number: "))
