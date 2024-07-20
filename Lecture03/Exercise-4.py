@@ -6,26 +6,26 @@ print("4. Divide")
 
 select = int(input("Enter number form 1,2,3,4: " ))
 
-if  select == 1:
-    num1 = int(input("Enter first number: "))
-    num2 = int(input("Enter second number: "))
-    print(f"{num1} + {num2} =", num1+num2)
-
-elif select == 2:
-    num1 = int(input("Enter first number: "))
-    num2 = int(input("Enter second number: "))
-    print(f"{num1} - {num2} =", num1-num2)
-
-elif select == 3:
-    num1 = int(input("Enter first number: "))
-    num2 = int(input("Enter second number: "))
-    print(f"{num1} x {num2} =", num1*num2)
-
-elif select == 4:
-    num1 = int(input("Enter first number: "))
-    num2 = int(input("Enter second number: "))
-    print(f"{num1} / {num2} =", num1/num2)
-
+if select not in [1, 2, 3, 4]:
+    print("invalid input")
+    ValueError
+    print("Invalid input")
 else:
-    print("Error")
 
+    num1 = float(input("Enter the first number: "))
+    num2 = float(input("Enter the second number: "))
+
+    if  select == 1:
+        print(f"{num1} + {num2} =", num1+num2)
+
+    elif select == 2:
+        print(f"{num1} - {num2} =", num1-num2)
+
+    elif select == 3:
+        print(f"{num1} x {num2} =", num1*num2)
+
+    elif select == 4:
+        if num2 == 0:
+            print("Error")
+        else:
+            print(f"{num1} / {num2} =", num1/num2)
