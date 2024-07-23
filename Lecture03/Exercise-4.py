@@ -8,8 +8,6 @@ select = int(input("Enter number form 1,2,3,4: " ))
 
 if select not in [1, 2, 3, 4]:
     print("invalid input")
-    ValueError
-    print("Invalid input")
 else:
 
     num1 = float(input("Enter the first number: "))
