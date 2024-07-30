@@ -24,6 +24,6 @@ else:
 
     elif select == 4:
         if num2 == 0:
-            print("Error")
+            print("Cant Divide with 0")
         else:
             print(f"{num1} / {num2} =", num1/num2)
