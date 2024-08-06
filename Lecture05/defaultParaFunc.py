@@ -1,6 +1,4 @@
-def greet(name="World"):
-    print(f"Hello, {name}!")
+def greet(name = "World"):
+    print(f"Hello", {name})
 
-greet()
-
-greet("Alice")
+greet("ALice")
