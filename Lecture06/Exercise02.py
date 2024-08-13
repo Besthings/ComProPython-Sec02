@@ -36,8 +36,8 @@ def add_item(inventory, item_name, quantify_sold, price):
     
     
 
-# update_inventory(inventory, "Banana", 20)
-# print(inventory)
+update_inventory(inventory, "Banana", 20)
+print(inventory)
 print(inventory)
 add_item(inventory, "orange", 5, 0.85)
 print(inventory)
