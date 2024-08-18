@@ -37,6 +37,7 @@ for department, employees in performance_data.items():
     for employee, scores in employees.items():
         average = sum(scores) / len(scores)
         average_scores[department][employee] = average
-print(average_scores)
+print("Average Performance Scores: ",average_scores)
 
 # 2. **ระบุผู้ที่ทำผลงานได้ดีที่สุดในแต่ละแผนกโดยพิจารณาจากคะแนนเฉลี่ย**
+Top_Performers = 
