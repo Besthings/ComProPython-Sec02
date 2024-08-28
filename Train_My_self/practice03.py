@@ -1,4 +1,4 @@
-from collections import Counter
+# from collections import Counter
 
 def word_frequency(text: str) -> dict:
     cleaned_text = ""
@@ -8,9 +8,17 @@ def word_frequency(text: str) -> dict:
     
     # Split the cleaned text into words
     words = cleaned_text.split()
+
+    result = {}
+    for i in words:
+        if i in result:
+            result[i] += 1
+        else:
+            result[i] = 1
+    return result
     
     # Return the frequency of each word
-    return dict(Counter(words))
+    # return dict(Counter(words))
 
 print(word_frequency("Hello world! Hello everyone."))
 # Expect output: {'hello ': 2, 'world!': 1, 'everyone.': 1}

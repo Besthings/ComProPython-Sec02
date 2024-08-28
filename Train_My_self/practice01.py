@@ -18,3 +18,9 @@ print(find_single_occurrence_numbers([1, 1, 1, 1, 1]))
 
 #     only_one_count = [nums for nums, count in Anum.items() if count == 1]
 #     return(only_one_count)
+
+# for nums in nums:
+#     for count in nums:
+#         num.items()
+#     if count == 1:
+#         return nums
