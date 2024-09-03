@@ -1,0 +1,9 @@
+Name:Max
+ID:01
+Dept:MG
+Name:Grace
+ID:02
+Dept:HR
+Name:Pao
+ID:03
+Dept:KL
