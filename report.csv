@@ -1,3 +1,9 @@
-ID,Name,Price,Quantity,Category,Expiry Date
-1,asd,11.0,25,sawd,sadwasd
-2,sadwa,15.0,26,sadw,sadwasd
+ID,Name,Category,Price,Quantity
+1,Pad kaprao,Thai cuisine,60.0,2
+2,Pad Thai,Thai cuisine,60.0,2
+3,Sushi,Japanese cuisine,90.0,12
+4,Udon,Japanese cuisine,160.0,4
+5,Carbonara,Italian cuisine,199.0,1
+6,Lasagna,Italian cuisine,369.0,2
+7,Fried Rice,Chinese cuisine,229.0,2
+8,Peking Duck,Chinese cuisine,669.0,2
